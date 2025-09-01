@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<head>
+
+<html lang="en">
+
+<meta charset="UTF-8">
+
+<title>Page Title</title>
+
+</head>
+
+
+
+<body>
+
+<!--Your HTML tags will start here-->
+ <style>
+    body{background-color: rgb(109, 109, 109);
+        }
+    
+        
+    fieldset{border-color: black;}    
+   
+    
+        
+       
+    
+         
+
+ </style>
+ <h1 style="text-align: center;"> ♥ Two Select Places ♥</h1>
+ 
+   
+ <h5>Upper Pennisula, MI</h5>
+ <p>I grew up in Michigan, I may be a little bias towards it but it has some spetacular views.
+    I remember spending summers up north in the U.P. and loved every moment of it. The fishing is
+    is amazing from Rockbass to Northern Pike you will find it. there are numerous spots for hiking
+    or for sightseeing. I can almost guarantee their is something for you do if you are a outdoorsy person.
+    </p>
+    <img src="./u.p..png"  alt="U.P. of Michigan" width="400" height="250">
+ <h5>West Virginia</h5>
+    <p>There really isnt a single area of West Virgina that isnt beautiful. Tucked up in the Appalachian Mountains.
+        The wild life and lack of people make this a great place to explore and go sightseeing
+        from exploring caves to climbing mountains. As I said about  the Upper Pennisula, you will find alot to do here also.
+    </p>
+    <img src="./West Virginia.png" alt="Photo of West Virginia" width="400" height="250">
+ </p>
+<form style="background-color: rgb(93, 94, 94);border: 2px solid black;margin-right: 500px;" action="action_page.php" method="get">
+    <legend><p>Where would rather be?</p></legend>
+   <select style="background-color: bisque;" name="place">
+   <option value="upperpennisula">Upper Pennisula</option>
+   <option value="westvirginia">West Virginia</option>
+   </select>
+   <fieldset>
+<legend><p>What is your favorite outdoor Activity?</p></legend>
+<div> 
+ <input type="radio" name="camping" value="camping" id="activity">
+ <label for="camping">Camping</label> 
+</div>
+<div>
+    <input type="radio" name="swimming" value="swimming" id="activity">
+    <label for="swimming">Swimming</label>
+</div>
+<div>
+    <input type="radio" name="fishing" value="fishing" id="activity">
+    <label for="fishing">Fishing</label>
+</div>
+   </fieldset>
+<br>
+ <textarea style="background-color: rgb(163, 240, 240);" rows="15" cols="50" placeholder="Enter your comments here..."></textarea>
+<br>
+   <input style="background-color: bisque;" type="submit">
+   <input style="background-color: bisque;" type="reset">
+ </div>
+</form>
+ <Footer style="text-align: center;"><a href="My_site.html">Home</a>&nbsp;&nbsp;<a href="two_places.html">Two Places</a>&nbsp;&nbsp;<a href="youtubelink.html">Video's</a></Footer>
+ 
+ 
+ 
+
+<!--Your HTML tags will end here-->
+
+</body>
+
+</html>
